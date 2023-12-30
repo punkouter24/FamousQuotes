@@ -1,0 +1,52 @@
+﻿@page "/"
+@inject QuoteService QuoteService
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p class="error">@errorMessage</p>
+}
+else
+{
+    <div class="quotes-grid">
+    @foreach (var quote in quotes)
+        {
+            <div class="quote-item">
+                <p>@quote.Content</p>
+                <span>- @quote.Author</span>
+            </div>
+        }
+    </div>
+}
+
+
+<button @onclick="LoadQuotes">Get New Quotes</button>
+
+@code {
+    private List<Quote> quotes = new List<Quote>();
+
+    private bool isLoading = false;
+    private string errorMessage = "";
+
+
+    private async Task LoadQuotes()
+    {
+        try
+        {
+            isLoading = true;
+            errorMessage = "";
+            quotes = await QuoteService.GetRandomQuotesAsync(10);
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Failed to load quotes: " + ex.Message;
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

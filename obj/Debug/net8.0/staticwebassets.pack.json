@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/obj/Debug/net8.0/compressed/e3uuye6te2.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/obj/Debug/net8.0/scopedcss/bundle/FamousQuotes.styles.css",
+      "PackagePath": "staticwebassets/FamousQuotes.styles.css"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/matthewherb/Downloads/FamousQuotes/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FamousQuotes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FamousQuotes.props",
+      "PackagePath": "build\\FamousQuotes.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FamousQuotes.props",
+      "PackagePath": "buildMultiTargeting\\FamousQuotes.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FamousQuotes.props",
+      "PackagePath": "buildTransitive\\FamousQuotes.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
