@@ -1,0 +1,22 @@
+﻿@page "/singlequote"
+@inject QuoteService quoteService
+
+<h3>Single Quote</h3>
+
+@if (quote == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <p>@quote.Content - @quote.Author</p>
+}
+
+@code {
+    private Quote quote;
+
+    protected override async Task OnInitializedAsync()
+    {
+        quote = (await quoteService.GetRandomQuotesAsync(1))[0];
+    }
+}
